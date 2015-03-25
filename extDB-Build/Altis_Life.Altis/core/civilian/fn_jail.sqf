@@ -32,11 +32,11 @@ if(player distance (getMarkerPos "jail_marker") > 40) then {
 };
 
 [1] call life_fnc_removeLicenses;
-if(life_inv_heroinu > 0) then {[false,"heroinu",life_inv_heroinu] call life_fnc_handleInv;};
-if(life_inv_heroinp > 0) then {[false,"heroinp",life_inv_heroinp] call life_fnc_handleInv;};
-if(life_inv_coke > 0) then {[false,"cocaine",life_inv_coke] call life_fnc_handleInv;};
-if(life_inv_cokep > 0) then {[false,"cocainep",life_inv_cokep] call life_fnc_handleInv;};
-if(life_inv_turtle > 0) then {[false,"turtle",life_inv_turtle] call life_fnc_handleInv;};
+if(life_inv_heroinUnprocessed > 0) then {[false,"heroin_unprocessed",life_inv_heroinUnprocessed] call life_fnc_handleInv;};
+if(life_inv_heroinProcessed > 0) then {[false,"heroin_processed",life_inv_heroinProcessed] call life_fnc_handleInv;};
+if(life_inv_cocaineUnprocessed > 0) then {[false,"cocaine_unprocessed",life_inv_cocaineUnprocessed] call life_fnc_handleInv;};
+if(life_inv_cocaineProcessed > 0) then {[false,"cocaine_processed",life_inv_cocaineProcessed] call life_fnc_handleInv;};
+if(life_inv_turtleRaw > 0) then {[false,"turtle_raw",life_inv_turtleRaw] call life_fnc_handleInv;};
 if(life_inv_cannabis > 0) then {[false,"cannabis",life_inv_cannabis] call life_fnc_handleInv;};
 if(life_inv_marijuana > 0) then {[false,"marijuana",life_inv_marijuana] call life_fnc_handleInv;};
 life_is_arrested = true;
